@@ -1,0 +1,34 @@
+2021-04-06 14:22:53,139 INFO    MainThread:614 [wandb_setup.py:_flush():69] setting env: {}
+2021-04-06 14:22:53,140 INFO    MainThread:614 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-04-06 14:22:53,140 INFO    MainThread:614 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '10d9f87a71fe4e22f491853045d179d163009aeb'}
+2021-04-06 14:22:53,140 INFO    MainThread:614 [wandb_init.py:_log_setup():336] Logging user logs to /content/drive/My Drive/Colab Notebooks/T5_FineTune/wandb/run-20210406_142253-2d7umzfi/logs/debug.log
+2021-04-06 14:22:53,141 INFO    MainThread:614 [wandb_init.py:_log_setup():337] Logging internal logs to /content/drive/My Drive/Colab Notebooks/T5_FineTune/wandb/run-20210406_142253-2d7umzfi/logs/debug-internal.log
+2021-04-06 14:22:53,141 INFO    MainThread:614 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f90438a6fd0>
+2021-04-06 14:22:53,142 INFO    MainThread:614 [wandb_init.py:init():369] calling init triggers
+2021-04-06 14:22:53,142 INFO    MainThread:614 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {'adafactor_beta1': None, 'adafactor_clip_threshold': 1.0, 'adafactor_decay_rate': -0.8, 'adafactor_eps': (1e-30, 0.001), 'adafactor_relative_step': False, 'adafactor_scale_parameter': False, 'adafactor_warmup_init': False, 'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/best_model', 'cache_dir': 'cache_dir/', 'config': {}, 'cosine_schedule_num_cycles': 0.5, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 0, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'eval_loss', 'early_stopping_metric_minimize': True, 'early_stopping_patience': 3, 'encoding': None, 'eval_batch_size': 64, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 15000, 'evaluate_during_training_verbose': True, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 0.001, 'local_rank': -1, 'logging_steps': 50, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 196, 'model_name': 't5-small', 'model_type': 't5', 'multiprocessing_chunksize': -1, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 1, 'optimizer': 'Adafactor', 'output_dir': 'outputs/', 'overwrite_output_dir': True, 'polynomial_decay_schedule_lr_end': 1e-07, 'polynomial_decay_schedule_power': 1.0, 'process_count': 1, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': False, 'save_optimizer_and_scheduler': True, 'save_steps': -1, 'scheduler': 'constant_schedule_with_warmup', 'silent': False, 'skip_special_tokens': True, 'tensorboard_dir': None, 'thread_count': None, 'tokenizer_name': None, 'tokenizer_type': None, 'train_batch_size': 16, 'train_custom_parameters_only': False, 'use_cached_eval_features': False, 'use_early_stopping': False, 'use_hf_datasets': False, 'use_multiprocessing': False, 'use_multiprocessing_for_evaluation': True, 'wandb_kwargs': {}, 'wandb_project': 'T5 mixed tasks - Binary, Multi-Label', 'warmup_ratio': 0.06, 'warmup_steps': 560, 'weight_decay': 0.0, 'model_class': 'T5Model', 'dataset_class': None, 'do_sample': False, 'early_stopping': True, 'evaluate_generated_text': False, 'length_penalty': 2.0, 'max_length': 20, 'max_steps': -1, 'num_beams': 1, 'num_return_sequences': 1, 'preprocess_inputs': True, 'repetition_penalty': 1.0, 'special_tokens_list': [], 'top_k': None, 'top_p': None, 'use_multiprocessed_decoding': True}
+2021-04-06 14:22:53,142 INFO    MainThread:614 [wandb_init.py:init():418] starting backend
+2021-04-06 14:22:53,142 INFO    MainThread:614 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-04-06 14:22:53,210 INFO    MainThread:614 [backend.py:ensure_launched():123] starting backend process...
+2021-04-06 14:22:53,287 INFO    MainThread:614 [backend.py:ensure_launched():128] started backend process with pid: 747
+2021-04-06 14:22:53,298 INFO    MainThread:614 [wandb_init.py:init():423] backend started and connected
+2021-04-06 14:22:53,363 INFO    MainThread:614 [wandb_init.py:init():463] updated telemetry
+2021-04-06 14:22:53,364 INFO    MainThread:614 [wandb_init.py:init():482] communicating current version
+2021-04-06 14:22:54,154 INFO    MainThread:614 [wandb_init.py:init():487] got version response 
+2021-04-06 14:22:54,155 INFO    MainThread:614 [wandb_init.py:init():495] communicating run to backend with 30 second timeout
+2021-04-06 14:22:54,284 INFO    MainThread:614 [wandb_init.py:init():520] starting run threads in backend
+2021-04-06 14:22:56,670 INFO    MainThread:614 [wandb_run.py:_console_start():1524] atexit reg
+2021-04-06 14:22:56,683 INFO    MainThread:614 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-04-06 14:22:56,684 INFO    MainThread:614 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-04-06 14:22:56,685 INFO    MainThread:614 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-04-06 14:22:56,685 INFO    MainThread:614 [wandb_init.py:init():544] run started, returning control to user process
+2021-04-06 14:22:56,686 INFO    MainThread:614 [wandb_watch.py:watch():39] Watching
+2021-04-06 16:05:58,015 INFO    MainThread:614 [wandb_init.py:_pause_backend():249] pausing backend
+2021-04-06 16:05:58,016 INFO    MainThread:614 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-04-06 16:06:11,717 INFO    MainThread:614 [wandb_init.py:_resume_backend():258] resuming backend
+2021-04-06 16:06:11,904 INFO    MainThread:614 [wandb_init.py:_pause_backend():249] pausing backend
+2021-04-06 16:06:11,904 INFO    MainThread:614 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-04-06 16:07:07,801 INFO    MainThread:614 [wandb_init.py:_resume_backend():258] resuming backend
+2021-04-06 16:10:08,794 INFO    MainThread:614 [wandb_init.py:_pause_backend():249] pausing backend
+2021-04-06 16:10:08,796 INFO    MainThread:614 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-04-06 16:10:10,045 INFO    MainThread:614 [wandb_init.py:_resume_backend():258] resuming backend

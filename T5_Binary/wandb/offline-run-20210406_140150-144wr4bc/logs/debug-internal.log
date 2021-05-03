@@ -1,0 +1,23 @@
+2021-04-06 14:01:51,987 INFO    MainThread:534 [internal.py:wandb_internal():91] W&B internal server running at pid: 534, started at: 2021-04-06 14:01:51.984782
+2021-04-06 14:01:51,990 INFO    WriterThread:534 [datastore.py:open_for_write():77] open: /content/drive/MyDrive/Colab Notebooks/T5_FineTune/wandb/offline-run-20210406_140150-144wr4bc/run-144wr4bc.wandb
+2021-04-06 14:01:51,990 DEBUG   HandlerThread:534 [handler.py:handle_request():120] handle_request: run_start
+2021-04-06 14:01:53,453 DEBUG   HandlerThread:534 [meta.py:__init__():34] meta init
+2021-04-06 14:01:53,453 DEBUG   HandlerThread:534 [meta.py:__init__():48] meta init done
+2021-04-06 14:01:53,454 DEBUG   HandlerThread:534 [meta.py:probe():190] probe
+2021-04-06 14:01:53,463 DEBUG   HandlerThread:534 [git.py:repo():33] git repository is invalid
+2021-04-06 14:01:53,463 DEBUG   HandlerThread:534 [meta.py:_save_pip():52] save pip
+2021-04-06 14:01:53,468 DEBUG   HandlerThread:534 [meta.py:_save_pip():66] save pip done
+2021-04-06 14:01:53,469 DEBUG   HandlerThread:534 [meta.py:probe():231] probe done
+2021-04-06 14:16:29,842 WARNING MainThread:534 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-04-06 14:16:30,031 DEBUG   HandlerThread:534 [handler.py:handle_request():120] handle_request: pause
+2021-04-06 14:16:30,031 INFO    HandlerThread:534 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-04-06 14:16:30,162 DEBUG   HandlerThread:534 [handler.py:handle_request():120] handle_request: resume
+2021-04-06 14:16:30,163 INFO    HandlerThread:534 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-04-06 14:16:30,332 DEBUG   HandlerThread:534 [handler.py:handle_request():120] handle_request: pause
+2021-04-06 14:16:30,333 INFO    HandlerThread:534 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-04-06 14:16:30,610 WARNING MainThread:534 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2021-04-06 14:16:30,611 ERROR   MainThread:534 [internal.py:wandb_internal():149] Internal process interrupted.
+2021-04-06 14:16:31,171 INFO    SenderThread:534 [sender.py:finish():884] shutting down sender
+2021-04-06 14:16:31,376 INFO    WriterThread:534 [datastore.py:close():258] close: /content/drive/MyDrive/Colab Notebooks/T5_FineTune/wandb/offline-run-20210406_140150-144wr4bc/run-144wr4bc.wandb
+2021-04-06 14:16:31,377 INFO    HandlerThread:534 [handler.py:finish():624] shutting down handler
+2021-04-06 14:16:31,379 INFO    MainThread:534 [internal.py:handle_exit():78] Internal process exited

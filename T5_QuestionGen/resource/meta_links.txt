@@ -1,0 +1,3 @@
+http://deepyeti.ucsd.edu/jianmo/amazon/metaFiles/meta_All_Beauty.json.gz
+http://deepyeti.ucsd.edu/jianmo/amazon/metaFiles/meta_Appliances.json.gz
+http://deepyeti.ucsd.edu/jianmo/amazon/metaFiles/meta_Arts_Crafts_and_Sewing.json.gz

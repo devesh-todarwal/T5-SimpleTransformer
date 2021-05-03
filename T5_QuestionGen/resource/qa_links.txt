@@ -1,0 +1,3 @@
+http://deepx.ucsd.edu/public/jmcauley/qa/data/qa_Beauty.json.gz
+http://deepx.ucsd.edu/public/jmcauley/qa/data/qa_Appliances.json.gz
+http://deepx.ucsd.edu/public/jmcauley/qa/data/qa_Arts_Crafts_and_Sewing.json.gz

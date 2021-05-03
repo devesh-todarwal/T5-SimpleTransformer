@@ -1,0 +1,7 @@
+{"multilabel classification":
+    {   "F1 Score": 0.9080054384800154,
+        "Exact matches": 0.9085725028199022,
+        "Precision": 0.9085989470177637,
+        "Recall": 0.9085725028199022
+    }
+}

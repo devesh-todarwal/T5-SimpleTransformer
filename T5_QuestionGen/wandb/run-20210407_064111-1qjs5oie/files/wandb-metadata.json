@@ -1,0 +1,21 @@
+{
+    "os": "Linux-4.19.112+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-04-07T06:41:14.441297",
+    "startedAt": "2021-04-07T06:41:11.184525",
+    "docker": null,
+    "gpu": "Tesla K80",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": "11.0.228",
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-3dcef7b3-aac7-492e-aba6-0e284a872368.json"
+    ],
+    "state": "running",
+    "program": "T5_Question_Generation.ipynb",
+    "root": "/content",
+    "host": "ce7cdf994165",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}
